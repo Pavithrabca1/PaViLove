@@ -1,0 +1,14 @@
+pipeline {
+  agent: any
+  stages {
+   stage('Build') {
+     echo "Kutti gaandu Build Successfully"
+   }
+   stage('Test') {
+     echo "Kutti gaandu Test Successfully"
+   }
+   stage('Deploy') {
+     echo "Kutti gaandu Deploy Successfully"
+   }
+  }
+}
