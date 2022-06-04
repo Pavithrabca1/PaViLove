@@ -1,14 +1,21 @@
 pipeline {
-  agent: any
-  stages {
-   stage('Build') {
-     echo " Build Successfully"
-   }
-   stage('Test') {
-     echo " Test Successfully"
-   }
-   stage('Deploy') {
-     echo "Deploy Successfully"
-   }
-  }
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Build Successfully'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Test Successfully'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploy Successfully'
+            }
+        }
+    }
 }
