@@ -2,13 +2,13 @@ pipeline {
   agent: any
   stages {
    stage('Build') {
-     echo "Kutti gaandu Build Successfully"
+     echo " Build Successfully"
    }
    stage('Test') {
-     echo "Kutti gaandu Test Successfully"
+     echo " Test Successfully"
    }
    stage('Deploy') {
-     echo "Kutti gaandu Deploy Successfully"
+     echo "Deploy Successfully"
    }
   }
 }
